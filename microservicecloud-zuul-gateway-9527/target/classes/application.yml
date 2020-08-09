@@ -15,7 +15,7 @@ eureka:
  
 #网关映射保护，为了访问安全问题
 #代理http://myzuul.com:9527/microservicecloud-dept/dept/get/1真实地址
-#映射后访问地址http://myzuul.com:9527/atguigu/mydept/dept/get/1
+#映射后访问地址http://myzuul.com127.0.0.1:9527/atguigu/mydept/dept/get/1
 zuul: 
   #隐藏真实微服务名字
 #  ignored-services: microservicecloud-dept
